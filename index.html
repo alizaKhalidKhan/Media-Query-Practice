@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <!-- font awesome for bar and cross  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--Link For Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Navbar-->
+    <header>
+        <nav class="navbar">
+
+            <!-- Logo section -->
+            <div class="logo">
+                <h2>WEBSITE</h2>
+            </div>
+
+             <!-- Checkbox for handling the mobile menu toggle -->
+            <input type="checkbox" name="checkbox" id="check" class="click">
+
+            <!-- Navigation links and buttons -->
+            <ul class="nav-links">
+
+                <!-- Logo section inside navigation menu -->
+                <div class="nav-logo">
+                    <h2>WEBSITE</h2>
+                </div>
+
+                <!-- Navigation items -->
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Chat</a></li>
+
+                <!-- Cross icon to close the mobile menu -->
+                <label for="check" class="cross-icon">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+
+                <!-- Login button inside navigation menu -->
+                <div class="login-nav">
+                    <button class="login">Login</button>
+                </div>
+            </ul>
+
+             <!-- Login button for the desktop view -->
+            <div class="login-btn">
+                <button class="login">Login</button>
+            </div>
+
+             <!-- Hamburger icon for opening the mobile menu -->
+            <label for="check" class="hambur-icon">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+        </nav>
+    </header>
+</body>
+</html>
